@@ -53,9 +53,18 @@ const config = [
       }
     ]
   },
+  // {
+  //   input,
+  //   plugins: [typescript(tsConfig), new RequireRewriter(), nodeResolve({ resolveOnly: [] })],
+  //   output: {
+  //     file: 'lib/bson.mjs',
+  //     format: 'esm',
+  //     sourcemap: true
+  //   }
+  // },
   {
     input,
-    plugins: [typescript(tsConfig), new RequireRewriter(), nodeResolve({ resolveOnly: [] })],
+    plugins: [typescript(tsConfig), nodeResolve({ resolveOnly: [] })],
     output: {
       file: 'lib/bson.mjs',
       format: 'esm',
