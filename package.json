@@ -1,5 +1,5 @@
 {
-  "name": "bson",
+  "name": "@relba/bson",
   "description": "A bson parser for node.js and the browser",
   "keywords": [
     "mongodb",

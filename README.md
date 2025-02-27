@@ -3,6 +3,8 @@
 BSON is short for "Binary JSON," and is the binary-encoded serialization of JSON-like documents.
 You can learn more about it in [the specification](http://bsonspec.org).
 
+This repo is a fork of the original one. Its only purpose is to generate an mjs module type package without "top-level await", which can be used in the browser (without the module type) as expected.
+
 ### Table of Contents
 
 - [Usage](#usage)
