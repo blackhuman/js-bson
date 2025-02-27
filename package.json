@@ -1,6 +1,6 @@
 {
   "name": "@relba/bson",
-  "description": "A bson parser for node.js and the browser",
+  "description": "A bson parser for node.js and the browser (without top-level await in mjs module)",
   "keywords": [
     "mongodb",
     "bson",
